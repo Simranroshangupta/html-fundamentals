@@ -1,3 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal and Professional Information Submission Portal</title>
+</head>
+<body>
+
+<h1>Personal and Professional Information Submission Portal</h1>
+
+<p>
+Please fill in the complete information.
+Visit <a href="https://www.example.com" target="_blank">Information Guidelines</a>
+before submitting the form.
+</p>
+
+<form action="submit.html" method="post" enctype="multipart/form-data"
+      autocomplete="on" target="_self" name="informationForm">
+
+<!-- ================= BASIC INFORMATION ================= -->
+<fieldset>
+    <legend>Basic Personal Information</legend>
+
+    <label>Full Name:</label><br>
+    <input type="text" name="fullname" placeholder="Enter full name"
+           required autofocus maxlength="100" size="40"><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password"
+           required minlength="8" maxlength="20"><br><br>
+
+    <label>Email Address:</label><br>
+    <input type="email" name="email" placeholder="example@gmail.com" required><br><br>
+
+    <label>Phone Number:</label><br>
+    <input type="tel" name="phone" pattern="[0-9]{10}"
+           placeholder="10 digit number" required><br><br>
+
+    <label>Website:</label><br>
+    <input type="url" name="website" placeholder="https://example.com"><br><br>
+
+    <label>Search Keyword:</label><br>
+    <input type="search" name="search"><br><br>
+</fieldset>
+
+<!-- ================= PERSONAL DETAILS ================= -->
+<fieldset>
+    <legend>Personal Details</legend>
+
+    <label>Date of Birth:</label><br>
+    <input type="date" name="dob" required><br><br>
+
+    <label>Age:</label><br>
+    <input type="number" name="age" min="18" max="100" step="1" required><br><br>
+
+    <label>Preferred Contact Time:</label><br>
+    <input type="time" name="contact_time"><br><br>
+
+    <label>Select Week:</label><br>
+    <input type="week" name="week"><br><br>
+
+    <label>Select Month:</label><br>
+    <input type="month" name="month"><br><br>
+
+    <label>Meeting Date & Time:</label><br>
+    <input type="datetime-local" name="meeting"><br><br>
+</fieldset>
+
+<!-- ================= GENDER ================= -->
+<fieldset>
+    <legend>Gender Selection</legend>
+
+    <input type="radio" name="gender" value="Male" required> Male<br>
+    <input type="radio" name="gender" value="Female"> Female<br>
+    <input type="radio" name="gender" value="Other"> Other<br>
+</fieldset>
+
+<!-- ================= SKILLS ================= -->
+<fieldset>
+    <legend>Skills Selection</legend>
+
+    <input type="checkbox" name="skills" value="HTML"> HTML<br>
+    <input type="checkbox" name="skills" value="CSS"> CSS<br>
+    <input type="checkbox" name="skills" value="JavaScript"> JavaScript<br>
+</fieldset>
+
+<!-- ================= LOCATION ================= -->
+<fieldset>
+    <legend>Location Details</legend>
+
+    <label>State:</label><br>
+    <select name="state" size="1">
+        <option value="gujarat">Gujarat</option>
+        <option value="maharashtra">Maharashtra</option>
+        <option value="rajasthan">Rajasthan</option>
+    </select><br><br>
+
+    <label>Country:</label><br>
+    <select name="country" multiple size="3">
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="canada">Canada</option>
+    </select><br><br>
+</fieldset>
+
+<!-- ================= FILE UPLOAD ================= -->
+<fieldset>
+    <legend>File Upload</legend>
+
+    <label>Upload Profile Photo:</label><br>
+    <input type="file" name="photo" accept="image/*"><br><br>
+
+    <label>Upload Resume:</label><br>
+    <input type="file" name="resume" accept=".pdf,.doc,.docx"><br><br>
+</fieldset>
+
+<!-- ================= PREFERENCES ================= -->
+<fieldset>
+    <legend>Preference Settings</legend>
+
+    <label>Select Favorite Color:</label><br>
+    <input type="color" name="color"><br><br>
+
+    <label>Experience Level (0–10):</label><br>
+    <input type="range" name="experience" min="0" max="10" step="1"><br><br>
+
+    <label>Browser:</label><br>
+    <input list="browsers" name="browser">
+    <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Edge">
+        <option value="Safari">
+    </datalist><br><br>
+</fieldset>
+
+<!-- ================= HIDDEN & READONLY ================= -->
+<fieldset>
+    <legend>Hidden and Readonly Fields</legend>
+
+    <input type="hidden" name="userid" value="12345">
+
+    <label>Read Only Information:</label><br>
+    <input type="text" value="Fixed Information" readonly><br><br>
+
+    <label>Disabled Information:</label><br>
+    <input type="text" value="Disabled Field" disabled><br><br>
+</fieldset>
+
+<!-- ================= FORM ACTIONS ================= -->
+<fieldset>
+    <legend>Form Actions</legend>
+
+    <input type="submit" value="Submit Information">
+    <input type="reset" value="Reset Form">
+    <input type="button" value="Custom Button"><br><br>
+
+    <button type="submit">Submit Using Button Tag</button>
+    <button type="reset">Reset Using Button Tag</button>
+    <button type="button">Normal Button</button>
+</fieldset>
+
+</form>
+
+<p>
+Go to <a href="contact.html" target="_blank">Contact Page</a><br>
+Visit <a href="https://www.google.com" target="_blank">External Website</a>
+</p>
+
+</body>
+</html>
+=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
