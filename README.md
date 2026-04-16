@@ -1,67 +1,57 @@
-# HTML Fundamentals 🌐
+# HTML Fundamentals Project
 
-This repository contains basic HTML programs and examples created to understand
-and practice the core concepts of HTML. The focus is on learning how web pages
-are structured using standard HTML elements.
+## Overview
+This project demonstrates core HTML concepts through structured examples and practical implementation. It is intended for learning, revision, and interview preparation.
 
-## Purpose of This Repository
-- Learn the structure of web pages using HTML
-- Understand commonly used HTML tags and elements
-- Practice creating simple static web pages
-- Build a foundation for CSS and JavaScript
+---
+
+## Features
+- HTML document structure
+- Text formatting elements
+- Lists and tables
+- Forms and input handling
+- Links and media integration
+- Semantic HTML layout
+
+---
+
+## Technologies Used
+- HTML5
+- CSS3
+
+---
+
+## Project Structure
+
+---
 
 ## Topics Covered
+- HTML Basics (structure, headings, paragraphs)
+- Text Formatting (bold, italic, etc.)
+- Lists (ordered, unordered, description)
+- Tables (rows, columns, formatting)
+- Forms (inputs, validation basics)
+- Media (images, audio, video)
+- Semantic HTML (header, nav, section, article, footer)
 
-### HTML Basics
-- Structure of an HTML document
-- Head and body tags
-- Headings and paragraphs
-- Line breaks and horizontal rules
+---
 
-### Text and Formatting
-- Bold, italic, and underline text
-- Superscript and subscript
-- Quotations and code formatting
+## How to Run
+1. Clone the repository  
+2. Open `index.html` in a web browser  
 
-### Links and Media
-- Anchor tags (links)
-- Images and image attributes
-- Audio and video embedding (basic)
+Alternatively, use a Live Server extension in a code editor.
 
-### Lists
-- Ordered lists
-- Unordered lists
-- Description lists
-
-### Tables
-- Table structure (table, tr, th, td)
-- Table borders and alignment
-- Basic table formatting
-
-### Forms
-- Input types (text, password, email, number, etc.)
-- Radio buttons and checkboxes
-- Dropdown lists (select)
-- Textarea and buttons
-- Basic form validation using HTML attributes
-
-### Semantic HTML
-- Header, footer, section, article
-- Nav and main elements
-- Importance of semantic structure
-
-## How to View the Files
-- Open any `.html` file in a web browser  
-  **or**
-- Use a live server extension in a code editor
+---
 
 ## Skills Demonstrated
-- Understanding of HTML document structure
-- Proper use of HTML elements and attributes
-- Creation of simple static web pages
+- Structured HTML development
 - Semantic and readable markup
+- Multi-page navigation
+- File and folder organization
+- Basic UI styling with CSS
 
-## Future Improvements
-- Add CSS for styling and layout
-- Introduce responsive design basics
-- Add JavaScript for interactivity
+---
+
+## Author
+Simran Roshan Gupta
